@@ -1,0 +1,429 @@
+:root {
+    --text-color: #e7eaf1;
+    --link-color: #4a76ee; /*create vriables*/
+   
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;/* box-sizing means the mode of calculate the size of each box(p , h1...) by default it's content-box(the deticated size is just for the content) and border-sizing means the whole size with margins , borders will be the deticated one */
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+   color: var(--text-color);
+   font-family: 'Nata Sans ';
+   background: linear-gradient(to left, #031038, #5e1674);
+   width:100%;
+   min-height: 100dvh;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+
+
+}
+a{
+    color:var(--link-color);
+    text-decoration:none;/* to avoid the underline*/
+}
+/*NAVBAR*/
+nav {
+    display: flex;
+    justify-content:space-between;
+    padding:0 /*y*/ 45px/*x*/;
+    height: 80px;
+    align-items: center;/*means make the items in the middle vertically*/ 
+    
+}
+nav .left  {
+    color:var(--text-color);
+    font-size:24px ;
+    font-weight: 700;
+}
+
+nav .right a {
+color:var(--text-color);
+font-size: 17px;
+font-weight: 580;
+padding-right: 15px;
+}
+
+
+/*section 1 :hero*/
+.hero{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:0 50px;
+   margin: 50px 0;
+   gap :40px;
+}  
+.hero .text{
+   flex: 4; 
+   font-family: Playpen Sans Arabic;
+   
+}
+.hero h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.hero h3{
+    color:rgb(88, 88, 212);
+    padding-left:60px;
+    padding-bottom: 20px;;
+}
+
+.hero .picture{
+   flex: 2;
+   display: flex;
+   justify-content: right;
+
+}
+
+/* Outer ring with animation */
+.animated-ring {
+  position: relative;
+  width: 370px;
+  height: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image — full size, fully visible */
+.animated-ring img {
+  width: 355px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 65%;
+  z-index: 2;
+  position: relative;
+}
+
+/* Ring segments as background animation */
+.animated-ring::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 65%;
+  background: conic-gradient(
+    from 0deg,
+    #00cfff 0deg,
+    #00cfff 25deg,
+    transparent 25deg,
+    transparent 180deg,
+    #ff00d4 180deg,
+    #ff00d4 205deg,
+    transparent 205deg,
+    transparent 360deg
+  );
+  z-index: 1;
+  animation: spinRing 2s linear infinite;
+}
+.animated-ring::after {
+  content: "";
+  position: absolute;
+  width: 362px;  /* slightly more than image width */
+  height: 375px; /* a bit taller than the image */
+  border-radius: 65%;
+  background: #0d1b3d; /* match your page background */
+  z-index: 1;
+}
+
+
+/* Spin animation */
+@keyframes spinRing {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* buttons*/
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    padding-top:50px;
+    padding-bottom: 50px;;
+}
+.buttons button{
+  width:250px;
+  height: 70px;
+  border-radius: 12px;
+
+    background:  linear-gradient(rgba(135, 22, 200, 0.6), rgba(38, 15, 192, 0.6)),
+              url("button.png");
+color:white;
+font-size: 15px;
+font-weight:lighter;
+
+}
+.buttons button:hover{
+    width:250px;
+ height: 70px;
+border-radius: 12px;
+
+background:linear-gradient(rgba(135, 22, 200, 0.6), rgba(38, 15, 192, 0.6));
+              
+color:rgb(12, 13, 14);
+font-size: 15px;
+font-weight:bold; 
+cursor: pointer;
+}
+
+
+/*section 2: subjects*/
+.subjects{
+  padding: 80px 50px;
+  margin-bottom:100px;
+
+}
+.subjects h2{
+  
+    font-size:35px;
+    padding-top:40px;
+    
+}
+
+.subjects p{
+    padding-top:20px;
+    margin-bottom: 20px;
+}
+.subjects .cells {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:15px;
+}
+.subjects .cells .cell{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:200px;
+   height:250px;
+   padding:10px 20px;
+   border-radius: 25px;
+   margin: 10px;
+   gap: 5px; 
+   background-size: cover;
+   background-position:center center ;
+   font-family: Noto Nastaliq Urdu;
+   font-weight: 200px;
+   font-size: 25px;
+}
+.subjects .cells a{
+    text-decoration:none;
+    color: black;
+
+
+}
+.experience{
+    padding: 0 50px;
+    margin-bottom:100px;
+
+}
+.experience .text {
+    gap:30px;
+}
+.experience h2{
+  font-size:35px;
+  padding-top:40px;
+  padding-bottom: 35px;
+    
+}
+.experience .arab{
+    background:  linear-gradient(rgba(133, 91, 232, 0.6), rgba(104, 62, 142, 0.6)),
+              url("exp.png");
+    background-size: cover;
+    border-radius: 15px;
+    padding:50px;
+    
+   
+}
+.experience .eng{
+    background:  linear-gradient(rgba(133, 91, 232, 0.6), rgba(104, 62, 142, 0.6)),
+              url("exp.png");
+    background-size: cover;
+    border-radius: 15px;
+    padding:50px;
+    margin-top: 35px;
+   
+}
+
+
+
+
+
+@media (max-width:600px){/*means execute this code or modification only when the size of the screen less then or equal to 600px*/
+   body{
+   color: var(--text-color);
+   font-family: 'Nata Sans ';
+   background: linear-gradient(to left, #031038, #5e1674);
+   width:100%;
+   min-height: 100vh;
+   margin:0;
+   }
+
+
+
+.hero .picture{
+   flex: 0.5;
+   display: flex;
+   justify-content: right;
+
+}
+.animated-ring {
+  position: relative;
+  width: 355;
+  height: 355;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animated-ring::after {
+  content: "";
+  position: absolute;
+  width: 369px;  /* slightly more than image width */
+  height: 369px; /* a bit taller than the image */
+  border-radius: 60%;
+  background: #b18df5 ; /* match your page background */
+  z-index: 1;
+}
+  /*NAVBAR*/
+    nav{
+     padding: 0 10px;
+     color: white;
+    
+   } 
+   nav .left{
+     font-size: 18px;
+   }
+   nav .right a {
+    font-size:22px;
+   }
+   nav .right a:last-child{
+    color:var(--text-color);
+    background-color: transparent;
+   }
+   nav .right a span{/*everything between the span will not appear*/
+    display:none;
+   }
+   .buttons{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   }
+  
+/*section 1*/
+.hero h2{
+    font-size: 25px;
+    
+}
+
+/*section 1*/
+.hero {
+  flex-direction:column-reverse;
+padding: 25px 12px;
+color: white;
+font-size: 12px;
+}
+.hero  .picture img{
+   width :350px;
+   height:350px; 
+   
+}
+
+.experience  {
+    padding: 0px 12px;
+    margin-bottom:100px;
+    color:white;
+
+}
+.experience .text {
+    gap:35px;
+}
+.experience h2{
+  font-size:25px;
+  padding-top:40px;
+  padding-bottom: 20px;
+    
+}
+.experience .arab {
+    background:  linear-gradient(rgba(133, 91, 232, 0.6), rgba(104, 62, 142, 0.6)),
+              url("exp.png");
+    background-size: cover;
+    border-radius: 9px;
+    padding:10px;
+    font-size: 2px;
+   
+}
+.experience .text .arab p {
+  font-size: 5px;
+}
+
+.experience .eng{
+    background:  linear-gradient(rgba(133, 91, 232, 0.6), rgba(104, 62, 142, 0.6)),
+              url("exp.png");
+    background-size: cover;
+    border-radius: 9px;
+    padding:4px;
+    margin-top: 35px;
+   font-size: 14px;
+}
+
+
+/*section 2: subjects*/
+.subjects{
+  padding: 50px 12px;
+  margin-bottom:100px;
+
+}
+.subjects h2{
+  
+    font-size:30px;
+    padding-top:40px;
+    color: white;
+    
+}
+
+.subjects p{
+    padding-top:20px;
+    margin-bottom: 20px;
+    color:white;
+    font-size: 10px;
+}
+.subjects .cells {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:9px;
+}
+.subjects .cells .cell{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:150px;
+   height:190px;
+   padding:5px 15px;
+   border-radius: 18px;
+   margin: 6px;
+   gap: 5px; 
+   background-size: cover;
+   background-position:center center ;
+   font-family: Noto Nastaliq Urdu;
+   font-weight: 200px;
+   font-size: 25px;
+}
+.subjects .cells a{
+    text-decoration:none;
+    color: black;
+}
+}
