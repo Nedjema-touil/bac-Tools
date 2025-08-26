@@ -75,6 +75,28 @@ h1{
   transition: background 0.3s ease;
 }
 
+ .adv h2{
+  padding-top:150px; 
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ; 
+ }  
+ .adv .text{
+    display: flex;
+    padding: 10px 20px;
+    gap:20px;
+ }
+ 
+  .adv .text .ar{
+    flex:3;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(206, 191, 163) , rgb(232, 204, 154)) ;
+     font-size:17px;
+    font-weight:150px;
+}
+
+
 /* Glowing effect always on */
 .btn::before {
   content: "";
@@ -117,6 +139,38 @@ h1{
 .btn:active {
   color: #000;
   font-weight: bold;
+}
+
+/*sources*/
+.sor h2{
+  padding-top:100px; 
+padding-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px;
+    background: linear-gradient(to top,rgb(206, 191, 163) , rgb(232, 204, 154)) ;
+    font-size:18px;
+    font-weight:200px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 40px;
+  padding-bottom: 10px;;
 }
 
     @media(max-width:600px){
@@ -208,4 +262,47 @@ h1{
     text-align: center;
     padding: 10px 10px;
 }
+
+.sor h2{
+  padding-top:80px; 
+padding-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(206, 191, 163) , rgb(232, 204, 154)) ;
+    font-size:15px;
+    font-weight:150px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }

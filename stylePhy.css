@@ -2,6 +2,7 @@
 margin:0;
 padding:0;
 box-sizing: border-box;/* box-sizing means the mode of calculate the size of each box(p , h1...) by default it's content-box(the deticated size is just for the content) and border-sizing means the whole size with margins , borders will be the deticated one */
+
 }
 
 html{
@@ -119,6 +120,71 @@ h1{
   color: #000;
   font-weight: bold;
 }
+ .adv h2{
+  padding-top:110px; 
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ;
+  color:#FFF;
+ }  
+ .adv .text{
+    flex-direction: colomn-inverse;
+    gap:20px;
+ }
+ .adv .text .en{
+    flex:3;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(94, 90, 95) , rgb(126, 126, 134)) ;
+    font-size:17px;
+    font-weight:200px;
+    margin-bottom: 15px;
+ }
+  .adv .text .ar{
+    flex:3;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px;
+    background: linear-gradient(to top,  rgb(94, 90, 95) , rgb(126, 126, 134)) ;
+     font-size:18px;
+    font-weight:150px;
+}
+
+/*sources*/
+.sor h2{
+  padding-top:100px; 
+padding-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px;
+    background: linear-gradient(to top,  rgb(94, 90, 95) , rgb(126, 126, 134)) ;
+    font-size:18px;
+    font-weight:200px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor a{
+  color:#FFF;
+}
+
 
     @media(max-width:600px){
         .links{
@@ -160,6 +226,7 @@ h1{
     background: linear-gradient(to top, rgb(94, 90, 95) , rgb(126, 126, 134)) ;
     font-size:14px;
     font-weight:200px;
+    margin-bottom: 17px;
  }
   .adv .text .ar{
     flex:3;
@@ -199,4 +266,57 @@ h1{
   position: relative;
   background: transparent; /* no default background */
 }
-    }
+    
+.sor h2{
+  padding-top:80px; 
+padding-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Playwrite Au QLD' ; 
+  color: white;
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to top,  rgb(94, 90, 95) , rgb(126, 126, 134)) ;
+    font-size:15px;
+    font-weight:150px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+
+.sor a{
+  color:#FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

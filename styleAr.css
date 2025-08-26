@@ -151,6 +151,40 @@ h1{
     font-weight:200px;
 }
 
+
+/*sources*/
+.sor h2{
+  padding-top:100px; 
+padding-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px;
+    background: linear-gradient(to top, rgb(205, 162, 131) , rgb(243, 200, 140)) ;
+    font-size:18px;
+    font-weight:200px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+
+
     @media(max-width:600px){
         .links{
             flex-direction: column-reverse;
@@ -224,4 +258,37 @@ h1{
 }
 
 }
-    }
+.sor h2{
+  padding-top:80px; 
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(205, 162, 131) , rgb(243, 200, 140)) ;
+    font-size:15px;
+    font-weight:150px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+} 
+
+
+
+}

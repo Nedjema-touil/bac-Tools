@@ -150,6 +150,38 @@ h1{
      font-size:18px;
     font-weight:200px;
 }
+/*sources*/
+.sor h2{
+  padding-top:100px; 
+padding-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 18px;
+    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
+    font-size:18px;
+    font-weight:200px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 40px;
+  padding-bottom: 10px;;
+}
+
 
     @media(max-width:600px){
         .links{
@@ -220,7 +252,7 @@ h1{
     border-radius: 10px;
     padding: 10px;
     background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
-    font-size:12px;
+    font-size:14px;
     font-weight:150px;
  }
   .adv .text .ar{
@@ -229,13 +261,43 @@ h1{
     border-radius: 10px;
     padding: 10px;
     background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215));
-     font-size:12px;
+     font-size:14px;
     font-weight:150px;
 }      
         
         
         
-        
+     .sor h2{
+  padding-top:80px; 
+padding-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Playwrite Au QLD' ; 
+}
+.sor .text{
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
+    font-size:15px;
+    font-weight:150px;
+    text-align: right;
+}
+.sor h3{
+  padding-bottom: 10px;
+}
+.sor .youtube{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .rese{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+.sor .books{
+  padding-right: 30px;
+  padding-bottom: 10px;;
+}
+   
         
         
     }
