@@ -18,6 +18,9 @@ html{
    color: var(--text-color);
    font-family: 'Nata Sans ';
    background: linear-gradient(to left, #031038, #5e1674);
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-attachement: fixed;
    width:100%;
    min-height: 100dvh;
     margin:0; 
