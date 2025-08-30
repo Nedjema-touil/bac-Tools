@@ -220,7 +220,7 @@ padding-bottom: 40px;
 
  .file {
      margin-top:60px;
-  display: flex;
+     display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;

@@ -406,6 +406,7 @@ padding-bottom: 20px;
      margin-top:40px;
      flex-direction:column;
      gap:10px;
+     align-items: center;
     }
 
     .file-box {
@@ -413,8 +414,10 @@ padding-bottom: 20px;
       border: 1px solid #e6ebef;
       border-radius: 12px;
       padding: 10px 30px;
-      width: 280px;
+      width: 235px;
       text-align: center;
+      justify-content: center;
+      align-items: center;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       height: 65px;

@@ -396,18 +396,21 @@ padding-bottom: 20px;
 }
 .sum ul{
   padding-right: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .sum .ele{
   padding:10px 30px;
 }
 
 
- .file {
-     margin-top:40px;
-     flex-direction:column;
-     gap:10px;
-     
+  .file {
+      padding-top:50px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: auto;
     }
 
     .file-box {
@@ -415,7 +418,7 @@ padding-bottom: 20px;
       border: 1px solid #e6ebef;
       border-radius: 12px;
       padding: 10px 30px;
-      width: 250px;
+      width: 235px;
       justify-content: center;
       align-items: center;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
