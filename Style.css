@@ -14,7 +14,7 @@ html{
     scroll-behavior: smooth;
 
 }
-body{
+ html body{
    color: var(--text-color);
    font-family: 'Nata Sans ';
    background: linear-gradient(to left, #031038, #5e1674);
@@ -25,7 +25,7 @@ body{
     box-sizing: border-box;
     overflow-x:hidden;
 
-
+  
 }
 a{
     color:var(--link-color);

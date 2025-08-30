@@ -133,12 +133,12 @@ h1{
     gap:20px;
  }
  .adv .text .en{
-    flex:3;
+   flex:3;
     border: solid 2px black;
     border-radius: 20px;
     padding: 18px;
-    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
-    font-size:18px;
+    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215));
+     font-size:18px;
     font-weight:200px;
  }
   .adv .text .ar{
@@ -182,7 +182,82 @@ padding-bottom: 40px;
   padding-bottom: 10px;;
 }
 
+/*summuries section */
+.sum h2{
+ padding-top:100px; 
+padding-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Playwrite Au QLD' ;  
+}
 
+.sum .content {
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 25px;
+    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
+    font-size:18px;
+    font-weight:200px;
+    text-align: right;
+}
+.sum h4{
+  padding-bottom: 20px;
+}
+.sum ul{
+  padding-right: 20px;
+ padding-bottom: 20px;
+}
+
+
+
+ .file {
+     margin-top:40px;
+  display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .file-box {
+      background-color: #9ea6ea;
+      border: 1px solid #e6ebef;
+      border-radius: 12px;
+      padding: 20px 30px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      height: 75px;
+     
+    }
+
+    .file-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .file-box a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #145084;
+      font-weight: 500;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+
+
+    .file-box.download a {
+      color: #28a745;
+    }
+
+    
+
+
+  
     @media(max-width:600px){
         .links{
             flex-direction: column-reverse;
@@ -298,6 +373,78 @@ padding-bottom: 20px;
   padding-bottom: 10px;;
 }
    
-        
-        
+/*summuries section */
+.sum h2{
+ padding-top:80px; 
+padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Playwrite Au QLD' ;  
+}
+
+.sum .content {
+  border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(to top, rgb(123, 132, 209 , 0.5) , rgb(146, 146, 215)) ;
+    font-size:15px;
+    font-weight:200px;
+    text-align: right;
+}
+.sum h4{
+  padding-bottom: 20px;
+  font-size: 15px;
+  
+}
+.sum ul{
+  padding-right: 40px;
+ padding-bottom: 20px;
+}
+
+
+
+ .file {
+     margin-top:40px;
+     flex-direction:column;
+     gap:10px;
     }
+
+    .file-box {
+      background-color: #9ea6ea;
+      border: 1px solid #e6ebef;
+      border-radius: 12px;
+      padding: 10px 30px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      height: 65px;
+     
+    }
+
+    .file-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .file-box a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      display: inline-flex;
+      text-align: center;
+      padding-top:7px;
+      color: #145084;
+      font-weight: 500;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+
+
+    .file-box.download a {
+      color: #28a745;
+    }
+
+            
+        
+    
+
+}
