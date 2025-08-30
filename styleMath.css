@@ -403,16 +403,14 @@ padding-bottom: 20px;
 }
 
 
-  .file {
-      padding-top:50px;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      max-width: 900px;
-      margin: auto;
-      align-items:center;
+     .file {
+     margin-top:50px;
+     flex-direction:column;
+     gap:10px;
+    align-items: center;
+     
     }
+
 
     .file-box {
       background-color: #a493e1;
